@@ -2,7 +2,7 @@
 
 An advanced Go AI system featuring classical search algorithms, neural network-based agents, and hybrid strategies. Built with PyTorch and PySpiel for high-performance Go gameplay on 5×5 and 9×9 boards. Inspired by the breakthroughs of AlphaGo and AlphaZero, this project implements multiple AI approaches from traditional algorithms to deep reinforcement learning.
 
-![AlphaGo](go_game.avif)
+![AlphaGo](assets/go_game.avif)
 
 **Picture:** Professional Go player Lee Sedol contemplates his move against DeepMind's AlphaGo during their 2016 match in Seoul. This groundbreaking series marked a pivotal moment in AI history, demonstrating that machines could master one of humanity's most complex strategy games.
 
@@ -193,7 +193,7 @@ for agent in agents:
 
 The HybridGoAgent9x9 demonstrates strong performance across all opponents, achieving perfect scores (4.00) against most classical agents:
 
-![Performance of HybridGoAgent9x9 Against Different Opponents](HybridGoAgent9x9_comparison.png)
+![Performance of HybridGoAgent9x9 Against Different Opponents](assets/HybridGoAgent9x9_comparison.png)
 
 As shown in the performance chart, the hybrid agent consistently outperforms:
 - **vs Random, Greedy, Minimax, Alpha-Beta**: Perfect 4-0 victories
